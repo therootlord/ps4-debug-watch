@@ -6,6 +6,7 @@ on:
       - master
 
 env:
+  ACTIONS_ALLOW_UNSECURE_COMMANDS: 'true'
   AZURE_WEBAPP_NAME: dbgw.sln     # set this to your application's name
   AZURE_WEBAPP_PACKAGE_PATH: 'published'      # set this to the path to your web app project, defaults to the repository root
 
